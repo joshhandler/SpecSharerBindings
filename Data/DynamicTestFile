@@ -9,6 +9,5 @@ namespace SpecSharer.TestData
             Console.WriteLine("Example binding");
         }
 
-
     }
 }
