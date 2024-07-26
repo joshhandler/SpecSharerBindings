@@ -1,6 +1,6 @@
-namespace SpecSharerTests.Resources
+namespace SpecSharer.TestData
 {
-    public class SingleBindingFile
+    public class TestBindingsFile
     {
 [Given(@"there is a binding")]
 	public void Binding(string input)
@@ -8,5 +8,7 @@ namespace SpecSharerTests.Resources
             //Example Comment
             Console.WriteLine("Example binding");
         }
+
+
     }
 }
