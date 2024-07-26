@@ -3,12 +3,14 @@ namespace SpecSharer.TestData
     public class TestBindingsFile
     {
 
-[Given(@"there is the binding")]
+[Given(@"there is a binding")]
 	public void Binding(string input)
 	{
-            //An Example Comment
-            Console.Write("Example binding");
+            //Example Comment
+            Console.WriteLine("Example binding");
         }
+
+
 
     }
 }
