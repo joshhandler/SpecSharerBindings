@@ -1,37 +1,23 @@
 namespace SpecSharer.TestData
 {
-    public class TestBindingsFile
-    {
-
-[Given(@"there is a binding")]
-	public void Binding(string input)
-	{
+            [Given(@"there is a first binding")]
+        public void FirstBinding()
+        {
             //Example Comment
             Console.WriteLine("Example binding");
         }
 
-[Given(@"there is a first binding")]
-	public void FirstBinding()
-	{
-            //Example Comment
-            Console.WriteLine("Example binding");
-        }
+        [When(@"there is a value of '(.*)'")]
 
-[When(@"there is an input of '(.*)'")]
-	public bool SingleInputBinding(string input)
-	{
+        public bool SingleInputBinding(ArbitraryClass input)
+        {
             //Comment
-            Console.WriteLine($"Binding has input of {input}");
+            Console.WriteLine($"Binding has input of {input.GenerateString}");
             return true;
         }
-
-[Then(@"there are multiple inputs of '(*.)', '(a|b|c)', '(dddd)'")]
-[When(@"there are inputs of '(*.)', '(a|b|c)', '(dddd)'")]
-	public void MultiInputBinding(string stringInput, char charInput, int intInput)
-	{
-            //Another Comment
-            Console.WriteLine($"Inputs were string {stringInput}, char {charInput} and int {intInput}");
         }
+
+
 
     }
 }
