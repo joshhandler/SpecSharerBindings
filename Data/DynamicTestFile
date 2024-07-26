@@ -2,6 +2,7 @@ namespace SpecSharer.TestData
 {
     public class TestBindingsFile
     {
+
 [Given(@"there is a binding")]
 	public void Binding(string input)
 	{
