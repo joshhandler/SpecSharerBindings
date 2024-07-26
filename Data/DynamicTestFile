@@ -31,5 +31,7 @@ namespace SpecSharer.TestData
 	{
             //Another Comment
             Console.WriteLine($"Inputs were string {stringInput}, char {charInput} and int {intInput}");
-        }    }
+        }
+
+    }
 }
