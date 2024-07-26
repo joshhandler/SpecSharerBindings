@@ -4,7 +4,7 @@ namespace SpecSharer.TestData
     {
 [Given(@"there is a binding")]
 	public void Binding(string input)
-{
+	{
             //Example Comment
             Console.WriteLine("Example binding");
         }
