@@ -1,6 +1,9 @@
 namespace SpecSharer.TestData
 {
-            [Given(@"there is a first binding")]
+    public class TestBindingsFile
+    {
+
+[Given(@"there is a first binding")]
         public void FirstBinding()
         {
             //Example Comment
