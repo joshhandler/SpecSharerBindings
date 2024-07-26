@@ -12,10 +12,10 @@ namespace SpecSharer.TestData
 
         [When(@"there is a value of '(.*)'")]
 
-        public bool SingleInputBinding(ArbitraryClass input)
+        public bool SingleInputBinding(string input)
         {
             //Comment
-            Console.WriteLine($"Binding has input of {input.GenerateString}");
+            Console.WriteLine($"Binding has input of thing and {input}");
             return true;
         }
         }
