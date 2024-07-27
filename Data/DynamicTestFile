@@ -8,5 +8,7 @@ namespace SpecSharer.TestData
 	{
             //Example Comment
             Console.WriteLine("Example binding");
-        }    }
+        }
+
+    }
 }
